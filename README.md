@@ -1,9 +1,9 @@
-🤖 AI Todoist Assistant
+# 🤖 AI Todoist Assistant
 
 An intelligent command-line AI assistant built using LangChain, Google Gemini, and the Todoist API. This assistant understands natural language, allowing users to create and manage Todoist tasks through conversational commands.
 
 
-🚀 Features
+## 🚀 Features
 
 📝 Add new tasks to Todoist
 
@@ -19,7 +19,7 @@ An intelligent command-line AI assistant built using LangChain, Google Gemini, a
 
 
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Python
 
 LangChain
@@ -34,14 +34,14 @@ Pydantic
 
 
 
-📂 Project Structure
+## 📂 Project Structure
 AI-Todoist-Assistant/
 │
 
 ├── main.py 
 
 ├── .env         
-# API Keys (not uploaded)
+
 ├── requirements.txt
 
 ├── README.md
@@ -52,10 +52,11 @@ AI-Todoist-Assistant/
 
 
     
-⚙️ Installation
+## ⚙️ Installation
 
 
-1. Clone the Repository
+
+### 1. Clone the Repository
 
 git clone https://github.com/RajshreeGholase/AI-Todoist-Assistant.git
 
@@ -63,11 +64,9 @@ cd AI-Todoist-Assistant
 
 
 
-3. Create a Virtual Environment (Optional)
+### 3. Create a Virtual Environment (Optional)
 
-
-
-4. python -m venv .venv
+python -m venv .venv
 
 
 Activate it:
@@ -82,12 +81,14 @@ source .venv/bin/activate
 
 
 
-3. Install Dependencies
+### 3. Install Dependencies
    
 pip install -r requirements.txt
 
 
-🔑 Environment Variables
+
+
+### 🔑 Environment Variables
 
 Create a .env file in the project root.
 
@@ -98,13 +99,13 @@ TODOIST_API_KEY=your_todoist_api_key
 
 
 
-▶️ Run the Project
+### ▶️ Run the Project
 
 python main.py
 
 
 
-💬 Example Usage
+## 💬 Example Usage
 
 You: Add a task to complete my Python assignment.
 
@@ -124,7 +125,7 @@ Assistant:
 
 
 
-🧠 How It Works
+## 🧠 How It Works
 
 Loads API keys from the .env file.
 
@@ -140,7 +141,7 @@ Maintains conversation history for context-aware responses.
 
 
 
-📦 Required Packages
+## 📦 Required Packages
 
 langchain
 
@@ -156,11 +157,13 @@ pydantic
 
 
 
-You can generate a requirements.txt using:
+## You can generate a requirements.txt using:
 
 pip freeze > requirements.txt
 
-🎯 Future Improvements
+
+
+## 🎯 Future Improvements
 
 ✅ Delete tasks
 
@@ -180,7 +183,7 @@ pip freeze > requirements.txt
 
 
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Rajshree Nandkumar Gholase
 
@@ -190,6 +193,6 @@ Python | Machine Learning | AI | LangChain | Generative AI
 
 
 
-⭐ Support
+## ⭐ Support
 
 If you found this project useful, please consider giving it a ⭐ Star on GitHub!
